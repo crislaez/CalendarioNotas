@@ -1,0 +1,73 @@
+#formulario{
+    width: 100%;
+    height: 100%;
+    transition: all 300ms;
+  
+}
+.barraForm{
+    width: 80%;
+    height: 40px;
+    margin-top: 1em;
+    font-size: 20px;
+    margin-left: 5%;
+    box-shadow: 7px 7px 3px grey;
+    border-radius: 10px;
+}
+input[type='submit']{
+    width: 40%;
+    height: 50px;
+    margin-top: 1.5em;
+    margin-left: 30%;
+    background: #2776AD;
+    color: white;
+    border-radius: 10px;
+    text-shadow: 3px 3px 3px black;
+    cursor: pointer;
+}
+ i{
+    margin-left: 5%;
+    font-size: 25px;
+    color: #2776AD;
+}
+.divFlotanteDos{
+    position: absolute;
+    margin-top: 5em;
+    margin-left: 99.5%;
+    width: 0%;
+    height: 400px;
+    box-shadow: 7px 7px 3px black;
+    background: white;
+    transition: all 300ms;
+    overflow: hidden;
+    border: 1px solid #cbcbcb;
+}
+.divFlotanteDos h3{
+    width: 80%;
+    height: 30px;
+    margin-top: 0.5em;
+    font-size: 30px;
+    margin-left: 27%;
+    transition: all 300ms;
+}
+#botonBorrar{
+    width: 50%;
+    margin-left: 25%;
+    height: 40px;
+    color: white;
+    cursor: pointer;
+    border-radius: 10px;
+    background: #2776AD;
+    transition: all 300ms;
+}
+.tdBotones{
+    width: 20%;
+    height: 20%;
+    margin-top: 80px;
+    background: #2776AD;
+    color: white;
+    box-shadow: 5px 5px 3px black;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-left: 2%;
+    float: left;
+}

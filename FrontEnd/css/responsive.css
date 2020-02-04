@@ -1,0 +1,155 @@
+
+@media screen and (max-width: 1200px){
+    .headerUno span{
+        font-size: 10px;
+    }
+    .headerUno input{
+        width: 12%;
+    }
+    .articulo table td button{
+        font-size: 5px;
+    }
+}
+
+@media screen and (max-width: 1060px){
+    .divCalendario{
+        display: none;
+    } .menu button{
+        width: 90%;
+    }
+    .menu button i{
+        font-size: 15px;
+    }    
+    .tdBotones{
+        width: 25%;
+        height: 15px;
+        font-size: 5px;
+        margin-top: 60px;
+    }
+    .divMostrarTarea p{
+        margin-bottom: 1em;
+    }
+    #botonBorrar{
+        height: 20px;
+    }
+    .divFlotanteDos h3{
+        font-size: 15px;
+    }
+    .divFlotanteDos i{
+        font-size: 15px;
+    }
+    .barraForm{
+        width: 70%;
+        height: 30px;
+        margin-top: 1.5em;
+    }
+    input[type='submit']{
+        width: 40%;
+        height: 30px;
+        margin-top: 1.5em;
+    }
+    .divCalendario{
+        display: none;
+    }
+    #formulario i{
+        font-size: 15px;
+    }
+    .divTareasHoy h3{
+        font-size: 12px;
+    }
+    .rellenarDatos{
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .headerUno{
+        width: 100%; 
+    }
+    .headerDos{
+        width: 100%;       
+    }
+    .headerUno span{
+        font-size: 22px;
+    }
+    .headerDos h1{
+        font-size: 20px;
+    }
+    .headerDos button{
+        width: 7%;
+    }
+    .divMostrarTarea h3{
+        font-size: 20px;
+    }    
+}
+
+@media screen and (max-width: 560px){
+    
+    .articulo table{
+        height: 30%;
+    }
+    .articulo table td{
+        width: 14%;
+        text-align: center;
+        border: 1px solid #cbcbcb;
+        background: #F7F7F7;
+    }
+    .menu button{
+        width: 90%;
+    }
+    .menu button i{
+        font-size: 15px;
+    }    
+    .tdBotones{
+        width: 25%;
+        height: 15px;
+        font-size: 5px;
+        margin-top: 60px;
+    }
+    .divMostrarTarea p{
+        margin-bottom: 1em;
+    }
+    #botonBorrar{
+        height: 20px;
+    }
+    .divFlotanteDos h3{
+        font-size: 15px;
+    }
+    .divFlotanteDos i{
+        font-size: 15px;
+    }
+    .barraForm{
+        width: 70%;
+        height: 30px;
+        margin-top: 1.5em;
+    }
+    input[type='submit']{
+        width: 40%;
+        height: 30px;
+        margin-top: 1.5em;
+    }
+    .divCalendario{
+        display: none;
+    }
+    #formulario i{
+        font-size: 15px;
+    }
+    .divTareasHoy h3{
+        font-size: 12px;
+    }
+    .rellenarDatos{
+        font-size: 10px;
+    }
+
+}
+/* div.style.width = '20%';
+div.style.height = '20%';
+div.innerHTML = 'Tarea';
+div.style.float = 'left';
+div.style.marginTop = '80px';
+div.style.background = '#2776AD';
+div.style.color = 'white';
+div.style.boxShadow = '5px 5px 3px black';
+div.style.cursor = 'pointer';
+div.style.borderRadius = '10px';
+div.style.marginLeft = '2%'; */
